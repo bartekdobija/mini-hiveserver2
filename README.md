@@ -15,3 +15,17 @@ Maven configuration:
   <version>v0.7</version>
 </dependency>
 ```
+
+Gradle configuration:
+
+```gradle
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compile 'com.github.bartekdobija:mini-hiveserver2:v0.7'
+}
+```
